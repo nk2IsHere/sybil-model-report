@@ -9,10 +9,13 @@ venv/
 
 data/*
 !data/.gitkeep
+!data/*.tcia
 
 results/*
 !results/.gitkeep
+!results/*.csv
 
 # Arbitrary cache
 
-predictions_per_patient.pkl
+*.pkl
+*.npy
